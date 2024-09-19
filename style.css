@@ -22,6 +22,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-bottom: 3.7rem;
+    
 }
 
 
@@ -81,8 +82,7 @@ font-size: 0.875rem;
 }
 
 main {
-    padding-inline: 1.5rem;
-    
+    padding-inline: 7rem;
 }
 
 
@@ -116,20 +116,38 @@ main {
     font-weight: 700;
     font-size: 1rem;
 }
+
+.bg-desktop {
+    display: none;
+}
+
+
  
 @media(min-width: 1000px) {
+    
+    body {
+        display: flex;
+    }
+
     header {
         background: none;
         justify-content: flex-start;
+        padding-inline: 7rem;
     }
 
     header img {
         width: 10rem;
     }
 
-    main {
-        padding-inline: 7rem;
+.Conteudo {
+    width: 100%;
+}
+
+    .bg-desktop {
+        display: block;
+        width: 100%;
     }
+    
 }
 
 
