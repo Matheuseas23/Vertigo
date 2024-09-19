@@ -92,6 +92,7 @@ font-size: 0.875rem;
 .Login button {
     margin-top: 1rem;
     padding-block: 1rem;
+    margin-bottom: 2rem;
     width: 100%;
     background: var(--purple);
     border: none;
@@ -101,8 +102,17 @@ font-size: 0.875rem;
     color: var(--white);
 }
 
+.Login > p {
+    color: var(--gray-600);
+} 
+
+.Login > p a {
+    font-weight: 700;
+    font-size: 1rem;
+}
  
 main {
     padding-inline: 1.5rem;
     
 }
+
