@@ -138,6 +138,7 @@ main {
     
     body {
         display: flex;
+        height: 131vh;
     }
 
     header {
@@ -162,6 +163,12 @@ main {
     .bg-desktop {
         display: block;
         width: 100%;
+    }
+
+    .bg-desktop img {
+        display: block;
+        width: 100%;
+        height: 100%;
     }
 
     .Descricao h1 {
